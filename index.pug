@@ -1,0 +1,34 @@
+.screen
+  #waveform
+  #waveform-timeline
+-var row1cnt = 7
+-var row2cnt = 6
+-var row3cnt = 5
+br
+.row1
+  .pad#0(onclick="playPad('pad8','#0')") Q
+  .pad#1(onclick="playPad('pad9','#1')") W 
+  .pad#2(onclick="playPad('pad10','#2')") E 
+  .pad#3(onclick="playPad('pad11','#3')") R
+  while row1cnt--
+   .pad.fakepad
+  input(id="zoom" type="range" min="0" max="200" value="0")
+ 
+.row2
+  .pad#4(onclick="playPad('pad4','#4')") A
+  .pad#5(onclick="playPad('pad5','#5')") S
+  .pad#6(onclick="playPad('pad6','#6')") D
+  .pad#7(onclick="playPad('pad7','#7')") F
+  while row2cnt--
+    .pad.fakepad
+  input(id="volume" type="range" min="1" max="100" value="40" orient="vertical")
+
+.row3
+
+ 
+ .pad#8(onclick="playPad('pad0','#8')") Z
+ .pad#9(onclick="playPad('pad1','#9')") X
+ .pad#10(onclick="playPad('pad2','#10')") C
+ .pad#11(onclick="playPad('pad3','#11')") V
+ while row3cnt--
+   .pad.fakepad
