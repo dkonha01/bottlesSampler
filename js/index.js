@@ -1,11 +1,8 @@
 'use strict';
 
-var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1537418496/kathysKlown_lrcrxm.mp3';
+var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1537446208/kathysKlown_toenir.mp3';
 
 var audioContext = new AudioContext()
-
-
-
 
 var zoom = document.querySelector('#zoom');
 var volume = document.querySelector('#volume');
@@ -135,7 +132,8 @@ var intervalId = setInterval(() => {
 }
 $(document).keydown((e) => {
   switch (e.which) {
-    case(90): //z
+    //case(90): //z
+    case(70): //f
       playPad('pad0','#8');
       return;
     case(88): //x
@@ -159,10 +157,10 @@ $(document).keydown((e) => {
      case(69): //e
       playPad('pad10','#2');
       return;
-    case(70): //f
+    //case(70): //f
+    case(90): //z
       playPad('pad7','#7');
       return;
-
     case(81): //q
       playPad('pad8','#0');
       return;
@@ -179,9 +177,6 @@ $(document).keydown((e) => {
       return;
     case(85): //u
       sound.rate(.97);
-
-
-
       return;
 
   }
