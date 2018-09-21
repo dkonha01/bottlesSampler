@@ -204,8 +204,8 @@ var playingRegions = {
 }
 var regions ={
   reg0:{
-    start:2.0,
-    stop:5.85,
+    start:0.0,
+    stop:7.85,
   },
   reg1:{
     start:2.86,
