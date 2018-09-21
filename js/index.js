@@ -134,7 +134,7 @@ $(document).keydown((e) => {
   switch (e.which) {
     //case(90): //z
     case(70): //f
-      playPad('pad0','#8');
+      playPad('pad0','#0');
       return;
     case(88): //x
       playPad('pad1','#9');
@@ -162,7 +162,7 @@ $(document).keydown((e) => {
       playPad('pad7','#7');
       return;
     case(81): //q
-      playPad('pad8','#0');
+      playPad('pad8','#8');
       return;
     case(87): //w
       playPad('pad9','#1');
