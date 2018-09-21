@@ -132,9 +132,8 @@ var intervalId = setInterval(() => {
 }
 $(document).keydown((e) => {
   switch (e.which) {
-    //case(90): //z
-    case(70): //f
-      playPad('pad0','#0');
+    case(90): //z
+      playPad('pad8','#8');
       return;
     case(88): //x
       playPad('pad1','#9');
@@ -154,15 +153,14 @@ $(document).keydown((e) => {
     case(68): //d
       playPad('pad6','#6');
       return;
-     case(69): //e
+    case(69): //e
       playPad('pad10','#2');
       return;
-    //case(70): //f
-    case(90): //z
+    case(70): //f
       playPad('pad7','#7');
       return;
     case(81): //q
-      playPad('pad8','#8');
+      playPad('pad12','#0');
       return;
     case(87): //w
       playPad('pad9','#1');
