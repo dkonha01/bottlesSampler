@@ -157,7 +157,7 @@ $(document).keydown((e) => {
       playPad('pad10','#2');
       return;
     case(70): //f
-      playPad('pad7','#0');
+      playPad('pad0','#7');
       return;
     case(81): //q
       playPad('pad12','#0');
