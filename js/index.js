@@ -1,6 +1,6 @@
 'use strict';
 
-var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1609298777/GoodFor_sel01_ko8ste.wav';
+var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1609633428/2-31_57B__Same_With_Reverb_jepajc.wav';
 
 var audioContext = new AudioContext()
 
