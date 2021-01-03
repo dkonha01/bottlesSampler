@@ -1,6 +1,6 @@
 'use strict';
 
-var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1537446208/kathysKlown_toenir.mp3';
+var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1609298777/GoodFor_sel01_ko8ste.wav';
 
 var audioContext = new AudioContext()
 
