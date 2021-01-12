@@ -1,6 +1,6 @@
 'use strict';
 
-var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1609645077/EVP_fwd_bk_oyxqre.wav';
+var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1610417601/EVP_fwd_bk_02_tl2rtl.wav';
 
 var audioContext = new AudioContext()
 
