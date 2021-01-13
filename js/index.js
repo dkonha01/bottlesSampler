@@ -152,7 +152,7 @@ $(document).keydown((e) => {
       return;
     case(68): //d
       playPad('pad6','#6');
-      sound.rate(.97);
+     // sound.rate(.97);
       return;
     case(69): //e
       playPad('pad10','#2');
@@ -169,13 +169,13 @@ $(document).keydown((e) => {
       return;
     case(82): //r
       playPad('pad11','#3');
-      sound.rate(.95);
+ //     sound.rate(.95);
       return;
     case(84): //t
-      sound.rate(1.0);
+   //   sound.rate(1.0);
       return;
     case(85): //u
-      sound.rate(.97);
+  //    sound.rate(.97);
       return;
 
   }
@@ -231,19 +231,19 @@ var regions ={
     stop:40.0,
   },
   reg7:{
-    start:40.0,
+    start:45.0,
     stop:50.0,
   },
   reg8:{
-    start:35.0,
-    stop:50.0,
+    start:30.0,
+    stop:45.0,
   },
   reg9:{
     start:25.0,
     stop:35.0,
   },
   reg10:{
-    start:0.0,
+    start:10.0,
     stop:15.0,
   },
   reg11:{
