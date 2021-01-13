@@ -203,7 +203,7 @@ var playingRegions = {
 var regions ={
   reg0:{
     start:0.0,
-    stop:10.0,
+    stop:5.0,
   },
   reg1:{
     start:5.0,
@@ -222,8 +222,8 @@ var regions ={
     stop:40.0,
   },
   reg5:{
-    start:19.8,
-    stop:24.75,
+    start:40.0,
+    stop:50.0,
   },
   reg6:{
     start:35.0,
@@ -238,15 +238,15 @@ var regions ={
     stop:50.0,
   },
   reg9:{
-    start:25.0,
-    stop:30.0,
+    start:15.0,
+    stop:35.0,
   },
   reg10:{
-    start:50.0,
-    stop:60.0,
+    start:0.0,
+    stop:15.0,
   },
   reg11:{
-   start:60.0,
-    stop:70.0,
+   start:15.0,
+    stop:25.0,
   }
 };
