@@ -165,17 +165,16 @@ $(document).keydown((e) => {
       return;
     case(87): //w
       playPad('pad9','#1');
-
       return;
     case(82): //r
       playPad('pad11','#3');
- //     sound.rate(.95);
+      sound.rate(.95);
       return;
     case(84): //t
-   //   sound.rate(1.0);
+      sound.rate(1.0);
       return;
     case(85): //u
-  //    sound.rate(.97);
+      sound.rate(.97);
       return;
 
   }
