@@ -149,10 +149,10 @@ $(document).keydown((e) => {
       return;
     case(83): //s
       playPad('pad5','#5');
-      sound.rate(.97);
       return;
     case(68): //d
       playPad('pad6','#6');
+      sound.rate(.97);
       return;
     case(69): //e
       playPad('pad10','#2');
