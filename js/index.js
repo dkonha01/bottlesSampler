@@ -239,7 +239,7 @@ var regions ={
     stop:50.0,
   },
   reg9:{
-    start:15.0,
+    start:25.0,
     stop:35.0,
   },
   reg10:{
