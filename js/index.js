@@ -1,6 +1,6 @@
 'use strict';
 
-var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1610501449/EVP_originalEDIT_motxhi.wav';
+var soundSource = 'https://res.cloudinary.com/de3c6e2g5/video/upload/v1610516287/EVP_edit_v2_ymeo9r.wav';
 
 var audioContext = new AudioContext()
 
@@ -206,19 +206,19 @@ var regions ={
     stop:5.0,
   },
   reg1:{
-    start:15.0,
-    stop:20.0,
+    start:5.0,
+    stop:10.0,
   },
   reg2:{
-     start:15.0,
-    stop:25.0,
+     start:10.0,
+    stop:20.0,
   },
   reg3:{
-    start:25.0,
-    stop:35.0,
+    start:20.0,
+    stop:30.0,
   },
   reg4:{
-    start:35.0,
+    start:30.0,
     stop:40.0,
   },
   reg5:{
@@ -226,27 +226,27 @@ var regions ={
     stop:50.0,
   },
   reg6:{
-    start:25.0,
+    start:10.0,
     stop:30.0,
   },
   reg7:{
-    start:45.0,
-    stop:50.0,
+    start:50.0,
+    stop:60.0,
   },
   reg8:{
-    start:0.0,
-    stop:7.0,
+    start:40.0,
+    stop:60.0,
   },
   reg9:{
-    start:25.0,
-    stop:35.0,
+    start:20.0,
+    stop:30.0,
   },
   reg10:{
     start:5.0,
-    stop:15.0,
+    stop:10.0,
   },
   reg11:{
-   start:15.0,
-    stop:25.0,
+   start:10.0,
+    stop:20.0,
   }
 };
